@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		F7732BD122396F0300960495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BD022396F0300960495 /* AppDelegate.swift */; };
 		F7732BD322396F0300960495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BD222396F0300960495 /* ViewController.swift */; };
-		F7732BD622396F0300960495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7732BD422396F0300960495 /* Main.storyboard */; };
 		F7732BD922396F0300960495 /* PlaylistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7732BD722396F0300960495 /* PlaylistCoreData.xcdatamodeld */; };
 		F7732BDB22396F0700960495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7732BDA22396F0700960495 /* Assets.xcassets */; };
-		F7732BDE22396F0700960495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7732BDC22396F0700960495 /* LaunchScreen.storyboard */; };
+		F7732BEC223972FD00960495 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BEB223972FD00960495 /* CoreDataStack.swift */; };
+		F7732BEE223977ED00960495 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BED223977ED00960495 /* Song+Convenience.swift */; };
+		F7732BF22239797000960495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7732BF12239797000960495 /* LaunchScreen.storyboard */; };
+		F7732BF42239798500960495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7732BF32239798500960495 /* Main.storyboard */; };
+		F7732BF622397A2F00960495 /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BF522397A2F00960495 /* Playlist+Convenience.swift */; };
+		F7732BF822397D3600960495 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BF722397D3600960495 /* SongController.swift */; };
+		F7732BFA22397DDC00960495 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7732BF922397DDC00960495 /* PlaylistController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7732BCD22396F0300960495 /* PlaylistCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7732BD022396F0300960495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7732BD222396F0300960495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7732BD522396F0300960495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7732BD822396F0300960495 /* PlaylistCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCoreData.xcdatamodel; sourceTree = "<group>"; };
 		F7732BDA22396F0700960495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7732BDD22396F0700960495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7732BDF22396F0700960495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7732BEB223972FD00960495 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F7732BED223977ED00960495 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		F7732BF12239797000960495 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7732BF32239798500960495 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F7732BF522397A2F00960495 /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
+		F7732BF722397D3600960495 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		F7732BF922397DDC00960495 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,70 @@
 		F7732BCF22396F0300960495 /* PlaylistCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				F7732BD022396F0300960495 /* AppDelegate.swift */,
-				F7732BD222396F0300960495 /* ViewController.swift */,
-				F7732BD422396F0300960495 /* Main.storyboard */,
-				F7732BDA22396F0700960495 /* Assets.xcassets */,
-				F7732BDC22396F0700960495 /* LaunchScreen.storyboard */,
-				F7732BDF22396F0700960495 /* Info.plist */,
-				F7732BD722396F0300960495 /* PlaylistCoreData.xcdatamodeld */,
+				F7732BEA223970B700960495 /* Storyboards */,
+				F7732BE52239704B00960495 /* Models */,
+				F7732BE62239704C00960495 /* Controllers */,
+				F7732BE72239704C00960495 /* Resources */,
 			);
 			path = PlaylistCoreData;
+			sourceTree = "<group>";
+		};
+		F7732BE52239704B00960495 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7732BD722396F0300960495 /* PlaylistCoreData.xcdatamodeld */,
+				F7732BEB223972FD00960495 /* CoreDataStack.swift */,
+				F7732BED223977ED00960495 /* Song+Convenience.swift */,
+				F7732BF522397A2F00960495 /* Playlist+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7732BE62239704C00960495 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7732BE92239708D00960495 /* ModelControllers */,
+				F7732BE82239705B00960495 /* ViewControllers */,
+			);
+			name = Controllers;
+			path = "New Group/Controllers";
+			sourceTree = "<group>";
+		};
+		F7732BE72239704C00960495 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7732BD222396F0300960495 /* ViewController.swift */,
+				F7732BD022396F0300960495 /* AppDelegate.swift */,
+				F7732BDA22396F0700960495 /* Assets.xcassets */,
+				F7732BDF22396F0700960495 /* Info.plist */,
+			);
+			name = Resources;
+			path = "New Group/New Group/Resources";
+			sourceTree = "<group>";
+		};
+		F7732BE82239705B00960495 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7732BE92239708D00960495 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7732BF722397D3600960495 /* SongController.swift */,
+				F7732BF922397DDC00960495 /* PlaylistController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		F7732BEA223970B700960495 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7732BF12239797000960495 /* LaunchScreen.storyboard */,
+				F7732BF32239798500960495 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +190,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7732BDE22396F0700960495 /* LaunchScreen.storyboard in Resources */,
+				F7732BF42239798500960495 /* Main.storyboard in Resources */,
+				F7732BF22239797000960495 /* LaunchScreen.storyboard in Resources */,
 				F7732BDB22396F0700960495 /* Assets.xcassets in Resources */,
-				F7732BD622396F0300960495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7732BF822397D3600960495 /* SongController.swift in Sources */,
+				F7732BFA22397DDC00960495 /* PlaylistController.swift in Sources */,
 				F7732BD322396F0300960495 /* ViewController.swift in Sources */,
 				F7732BD122396F0300960495 /* AppDelegate.swift in Sources */,
 				F7732BD922396F0300960495 /* PlaylistCoreData.xcdatamodeld in Sources */,
+				F7732BEC223972FD00960495 /* CoreDataStack.swift in Sources */,
+				F7732BEE223977ED00960495 /* Song+Convenience.swift in Sources */,
+				F7732BF622397A2F00960495 /* Playlist+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F7732BD422396F0300960495 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7732BD522396F0300960495 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7732BDC22396F0700960495 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7732BDD22396F0700960495 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F7732BE022396F0800960495 /* Debug */ = {
@@ -288,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q89A379BUF;
-				INFOPLIST_FILE = PlaylistCoreData/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreData/New Group/New Group/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q89A379BUF;
-				INFOPLIST_FILE = PlaylistCoreData/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreData/New Group/New Group/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
